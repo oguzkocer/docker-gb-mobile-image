@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM debian:latest
+FROM debian:stable-slim
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
